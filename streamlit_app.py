@@ -20,8 +20,8 @@ UUID = os.environ.get("UUID", "20e6e496-cf19-45c8-b883-14f5e11cd9f1")  # UUID
 NEZHA_SERVER = os.environ.get("NEZHA_SERVER", "")  # 哪吒面板域名
 NEZHA_PORT = os.environ.get("NEZHA_PORT", "")  # 哪吒端口
 NEZHA_KEY = os.environ.get("NEZHA_KEY", "")  # 哪吒密钥
-ARGO_DOMAIN = os.environ.get("ARGO_DOMAIN", "")  # Argo固定域名
-ARGO_AUTH = os.environ.get("ARGO_AUTH", "")  # Argo密钥
+ARGO_DOMAIN = os.environ.get("ARGO_DOMAIN", "ss.ukiss.me")  # Argo固定域名
+ARGO_AUTH = os.environ.get("ARGO_AUTH", "export TOK=${TOK:-'eyJhIjoiZWU4NWQ5YmQwNTI0OThhNmIwNWY0N2NjZmQ1YjM1MzIiLCJ0IjoiNTdmOTMyYjAtZTljNi00MmFlLWIzNzMtYjJkMDQ3YjNlNmI1IiwicyI6Ik56SXlOak0zTldRdE1HUXlaaTAwWkRKaUxXSXhZbU10WVRJMFltVmtZVEJpT0RZMyJ9")  # Argo密钥
 ARGO_PORT = int(os.environ.get("PORT", "8001"))  # Argo监听端口
 CFIP = os.environ.get("CFIP", "cf.090227.xyz")  # 优选ip
 CFPORT = int(os.environ.get("CFPORT", "443"))  # 优选端口
