@@ -42,6 +42,6 @@ jobs:
 
       - name: 执行 Streamlit 唤醒脚本
         env:
-          STREAMLIT_APP_URL: ${{ https://python-xray-argo-h852852.streamlit.app }}
+          STREAMLIT_APP_URL: ${{ vars.https://python-xray-argo-h852852.streamlit.app }}
         run: |
           python keep/streamlit-keep.py
