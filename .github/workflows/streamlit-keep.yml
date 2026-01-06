@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [service-down-alert]
-  schedule:
-    - cron: '0 9 * * *'      # 北京时间 08:00
-      timezone: 'Asia/Shanghai'
+schedule:
+  - cron: '0 10 * * *'      # 每天北京时间 10:00 运行
+    timezone: 'Asia/Shanghai'
 
 jobs:
   wakeup:
